@@ -2,7 +2,7 @@
 Hour-by-hour plan by weeks
 
 1. [Climate and Energy](w1.md)
-2. [Renewable Electricity and Electricity Economics](w2.md)
+2. [Energy Economics](w2.md)
 3. [Limitations to Electricity](w3.md)
 4. [Electrolysis](w4.md)
 5. [Power-to-X](w5.md)
