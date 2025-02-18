@@ -27,7 +27,7 @@ where $P$ is the installed nameplate power, $L$ is the lifetime of the project, 
 - $L$ typical units: \[year\]
 - $C$ typical units: \[%\]
 
-The emissions intensity of capital can be further broken up into embodied emissions in the materials used, EIC$_{\text{mat}}$, the emissions associated with processing the materials, EIC$_{\text{proc}}$, and the emissions associated with installation, EIC$_{\text{inst}}$.
+The emissions intensity of capital can be further broken up into embodied emissions in the materials used, $\mathrm{EIC}_{\text{mat}}$, the emissions associated with processing the materials, $\mathrm{EIC}_{\text{proc}}$, and the emissions associated with installation, $\mathrm{EIC}_{\text{inst}}$.
 
 $\mathrm{EIC}= \mathrm{EIC}_{\text{mat}} + \mathrm{EIC}_{\text{proc}} + \mathrm{EIC}_{\text{inst}}$
 
