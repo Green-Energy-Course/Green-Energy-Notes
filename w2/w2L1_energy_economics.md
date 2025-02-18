@@ -27,8 +27,6 @@ where $P$ is the installed nameplate power, $L$ is the lifetime of the project, 
 - $L$ typical units: \[year\]
 - $C$ typical units: \[%\]
 
-The emissions intensity of capital can be further broken up into embodied emissions in the materials used, $\mathrm{EIC}_{\text{mat}}$, the emissions associated with processing the materials, $\mathrm{EIC}_{\text{proc}}$, and the emissions associated with installation, $\mathrm{EIC}_{\text{inst}}$.
-
 $\mathrm{EIC}= \mathrm{EIC}_{\text{mat}} + \mathrm{EIC}_{\text{proc}} + \mathrm{EIC}_{\text{inst}}$
 
 The emboidied emissions associated with the materials can be described as the sum over materials of the _mass intensity_ of that material per power for that technology, MI, times the material's emissions _characterization factor_, CF.
