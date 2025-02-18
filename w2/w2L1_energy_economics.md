@@ -27,7 +27,11 @@ where $P$ is the installed nameplate power, $L$ is the lifetime of the project, 
 - $L$ typical units: \[year\]
 - $C$ typical units: \[%\]
 
-$\mathrm{EIC}= \mathrm{EIC}_{\text{mat}} + \mathrm{EIC}_{\text{proc}} + \mathrm{EIC}_{\text{inst}}$
+The emissions intensity of capital can be further broken up into embodied emissions in the materials used, $\mathrm{EIC}\_\text{mat}$, 
+the emissions associated with processing the materials, $\mathrm{EIC}\_\text{proc}$, 
+and the emissions associated with installation, $\mathrm{EIC}\_\text{inst}$.
+
+$\mathrm{EIC}= \mathrm{EIC}\_{\text{mat}} + \mathrm{EIC}\_{\text{proc}} + \mathrm{EIC}\_{\text{inst}}$
 
 The emboidied emissions associated with the materials can be described as the sum over materials of the _mass intensity_ of that material per power for that technology, MI, times the material's emissions _characterization factor_, CF.
 
@@ -40,32 +44,32 @@ $\mathrm{EIC}_{\text{mat}} = \sum_i^{\text{materials}} \mathrm{MI}_i \cdot \math
 Emissions cost example: wind vs solar
 -------------------------------------
 
-What is **embodied carbon per MW of installed capacity** ($\mathrm{EIC}_{\text{mat}}$) for **(a) wind** and **(b) solar**? 
+What is **embodied carbon per MW of installed capacity** ($\mathrm{EIC}\_{\text{mat}}$) for **(a) wind** and **(b) solar**? 
 
 Use the following materials requirements (MI) for wind and solar:
 
-| material | MI for wind / \[t/MW\] | MI for solar / [\t/MW\] |
----------------------------------------------------------------
-|concrete  | 500                    | 500                     |
-|steel     | 50                     | 100                     |
-|aluminium | 0                      | 60                      |
-|copper    | 5                      | 4                       |
-|silicon   | 0                      | 5                       |
+| material | MI for wind / \[t/MW\] | MI for solar / [\t/MW\] | 
+|----------|------------------------|-------------------------|
+|concrete  | 500                    | 500                     | 
+|steel     | 50                     | 100                     | 
+|aluminium | 0                      | 60                      | 
+|copper    | 5                      | 4                       | 
+|silicon   | 0                      | 5                       | 
 
 And the following characterization factors:
 
 | material | CF / \[t CO2 / t\] | 
----------------------------------
+|----------|--------------------|
 |concrete  | 0.18               |
 |steel     | 1.9                |
 |aluminium | 8.5                |
 |copper    | 4.6                |
 |silicon   | 10                 |
 
-What is the **emissions intensity of electricity** for **(c) wind** and **(d) solar** assuming that the above-calculated $\mathrm{EIC}_{\text{mat}}$ is the dominant cause of emissions over the project lifetime (approximate $\mathrm{EIC}_{\text{proc}}$, $\mathrm{EIC}_{\text{proc}}$, and $\mathrm{EIO}$ to all be zero). Use the following lifetimes and capacity factors:
+What is the **emissions intensity of electricity** for **(c) wind** and **(d) solar** assuming that the above-calculated $\mathrm{EIC}\_{\text{mat}}$ is the dominant cause of emissions over the project lifetime (approximate $\mathrm{EIC}\_{\text{proc}}$, $\mathrm{EIC}\_{\text{proc}}$, and $\mathrm{EIO}$ to all be zero). Use the following lifetimes and capacity factors:
 
 |                | wind | solar |
----------------------------------
+|----------------|------|-------|
 |$L$ / \[years]  | 25   | 50%   |
 |$C$             | 30   | 10%   |
 
@@ -78,11 +82,14 @@ The emissions payback time, $\mathrm{EPT}$, is the amount of time, in years, for
 
 This is equal to the emissions due to installation divided by the _emissions saving rate_ saved per installed capacity per year of operation, ESR:
 
-$ \mathrm{EPT} = \frac{\mathrm{EIC}{ESR}} $
+$\mathrm{EPT} = \frac{\mathrm{EIC}}{\mathrm{ESR}}$
+
+- $\mathrm{ESR}$, typical unit \[t CO2 / yr] 
 
 Here, the emissions saving rate is the _marginal emissions of electricity_ generated minus the marginal emissions of electricity for the electricity that it replaces in the grid. For renewables, since we are assuming for now that the entire lifetime emissions is due to the materials cost (EIO=0), we can also approximate the marginal emissions due to a unit of electricity generated as zero. The emissions saving rate for renewables is therefore the average electricity generation rate per unit installed power times the emissions intensity of electricity in the present mix in the grid:
 
 $\mathrm{ESR}(\text{renewables}) = C \cdot \mathrm{EIE}_{\text{grid}}$
+
 
 where we have used that capacity factor $C$ can be defined as the average electricity generation rate per unit of installed power.
 
