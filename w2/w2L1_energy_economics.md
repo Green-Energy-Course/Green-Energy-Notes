@@ -70,8 +70,8 @@ What is the **emissions intensity of electricity** for **(c) wind** and **(d) so
 
 |                | wind | solar |
 |----------------|------|-------|
-|$L$ / \[years]  | 25   | 50%   |
-|$C$             | 30   | 10%   |
+|$L$ / \[years]  | 25   | 30    |
+|$C$             | 50%  | 10%   |
 
 Emissions payback time
 ----------------------
