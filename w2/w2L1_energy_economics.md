@@ -66,10 +66,10 @@ And the following characterization factors:
 
 What is the **emissions intensity of electricity** for **(c) wind** and **(d) solar** assuming that the above-calculated $\mathrm{EIC}_{\text{mat}}$ is the dominant cause of emissions over the project lifetime (approximate $\mathrm{EIC}_{\text{proc}}$, $\mathrm{EIC}_{\text{proc}}$, and $\mathrm{EIO}$ to all be zero). Use the following lifetimes and capacity factors:
 
-|       .        | wind | solar |
+|                | wind | solar |
 ---------------------------------
-| $L$ / \[years] | 25   | 50%   |
-| $C$            | 30   | 10%   |
+|$L$ / \[years]  | 25   | 50%   |
+|$C$             | 30   | 10%   |
 
 Emissions payback time
 ----------------------
