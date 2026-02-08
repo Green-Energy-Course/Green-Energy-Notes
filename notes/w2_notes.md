@@ -26,7 +26,7 @@ Typically, LCOE is calculated in a spreadsheet with each column representing a y
 | year ($y$) | $\mathrm{CAPEX}_y$ | $\mathrm{E}_y$           | 
 |------------|--------------------|--------------------------|
 |0           | $\mathrm{CAPEX}_0$ | 0                        | 
-|1, 2, ...   | 0                  | $C \cdot P_\mathrm{max}$ | 
+|1, 2, ...   | 0                  | $C \cdot P_\mathrm{max} \cdot 1 \mathrm{yr}$ | 
 
 where 
 
