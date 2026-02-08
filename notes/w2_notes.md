@@ -39,10 +39,9 @@ Financial cost example: wind power
 ----------------------------------
 You're considering investing in a small onshore wind farm, with five 3-MW wind turbines (15 MW).
 
-You can buy the turbines for 3 million EUR a piece. They have a lifetime of 25 years. Assume that on-shore wind where you are building gets a capacity factor of 35%.
+You can buy the turbines for 3 million EUR a piece. They have a lifetime of 25 years. Assume that on-shore wind where you are building gets a capacity factor of 35%. Assume that operating expenditures and capital expenditures are negligible compared to the cost of the turbines.
 
 What is the levelized cost of electricity?
-
 
 
 Emissions cost
