@@ -28,6 +28,11 @@ Typically, LCOE is calculated in a spreadsheet with each column representing a y
 |0           | $\mathrm{CAPEX}_0$ | 0                        | 
 |1, 2, ...   | 0                  | $C \cdot P_\mathrm{max}$ | 
 
+where 
+
+- $C$ is the capacity factor, typical unit \[%\]
+- $P_\mathrm{max}$ is the nameplate capacity, typical unit \[MW\]
+
 Financial cost example: wind power
 ----------------------------------
 You're considering investing in a small onshore wind farm, with five 3-MW wind turbines (15 MW).
