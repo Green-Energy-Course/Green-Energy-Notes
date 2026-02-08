@@ -23,15 +23,17 @@ $\mathrm{LCOE} = \frac{\sum_y^L \frac{\mathrm{CAPEX}_y + \mathrm{OPEX}_y}{(1+r)^
 
 Typically, LCOE is calculated in a spreadsheet with each column representing a year. For a project that is built entirely in one year and starts generating electricity the following year, the following assumptions hold:
 
-| year ($y$) | $\mathrm{CAPEX}_y$ | $\mathrm{E}_y$           | 
-|------------|--------------------|--------------------------|
-|0           | $\mathrm{CAPEX}_0$ | 0                        | 
-|1, 2, ...   | 0                  | $C \cdot P_\mathrm{max} \cdot 1 \mathrm{yr}$ | 
+| year ($y$)         | 0                  | 1, 2, ...                | 
+|--------------------|--------------------|--------------------------|
+|$\mathrm{CAPEX}_y$  | $\mathrm{CAPEX}_0$ | 0                        | 
+|$\mathrm{E}_y$      | 0                  | $C \cdot P_\mathrm{max} \cdot 1 \mathrm{yr}$ | 
 
-where 
+where: 
 
 - $C$ is the capacity factor, typical unit \[%\]
 - $P_\mathrm{max}$ is the nameplate capacity, typical unit \[MW\]
+
+.
 
 Financial cost example: wind power
 ----------------------------------
