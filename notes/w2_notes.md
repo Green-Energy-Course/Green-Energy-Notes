@@ -39,7 +39,7 @@ Financial cost example: wind power
 ----------------------------------
 You're considering investing in a small onshore wind farm, with five 3-MW wind turbines (15 MW).
 
-You can buy the turbines for 3 million EUR a piece. They have a lifetime of 25 years. Assume that on-shore wind where you are building gets a capacity factor of 35%. Assume that operating expenditures and capital expenditures are negligible compared to the cost of the turbines.
+You can buy the turbines for 3 million EUR a piece. They have a lifetime of 30 years. Assume that on-shore wind where you are building gets a capacity factor of 35%. Assume that operating expenditures and capital expenditures are negligible compared to the cost of the turbines.
 
 What is the levelized cost of electricity?
 
@@ -55,8 +55,8 @@ $\mathrm{EIE}$ typical units: \[kg CO2\] / \[MWh\]
 
 We ca break the lifetime emissions into an _emissions intensity of capital_, EIC, which is the CO2 emissions associated with installing a unit of nameplate power capacity, and the _emissions intensity of operation_, EIO, which is the emissions per unit of nameplate power capacity per unit of time. The lifetime emissions of electricity is, for fossil fuel power plants, dominated by the fuel consumption, part of EIO. For renewable electricity sources it is typically much lower and dominated by the embodied emissions in the materials, part of EIC.
 
-- $\mathrm{EIC}$ typical units: \[ton CO2\ / MW\]
-- $\mathrm{EIO}$ typical units: \[ton CO2\ / MW / year \] 
+- $\mathrm{EIC}$ typical units: \[ton CO2 / MW\]
+- $\mathrm{EIO}$ typical units: \[ton CO2 / MW / year \] 
 
 As an equation, the emissions intensity of electricity becomes
 
@@ -103,7 +103,7 @@ And the following characterization factors:
 |----------|--------------------|
 |concrete  | 0.18               |
 |steel     | 1.9                |
-|aluminium | 8.5                |
+|aluminium | 6.8                |
 |copper    | 4.6                |
 |silicon   | 10                 |
 
@@ -111,7 +111,7 @@ What is the **emissions intensity of electricity** for **(c) wind** and **(d) so
 
 |                | wind | solar |
 |----------------|------|-------|
-|$L$ / \[years]  | 25   | 30    |
+|$L$ / \[years\] | 25   | 30    |
 |$C$             | 50%  | 10%   |
 
 Emissions payback time
