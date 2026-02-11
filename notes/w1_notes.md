@@ -90,8 +90,8 @@ The following table summarizes these four descriptors of our changing world (che
 
 *for the most recent ten-year period with available data (2015-2025 or 2014-2024). All data from ourworldindata.org. 
 
-Units of energy and emissions
------------------------------
+Units of energy and power
+-------------------------
 
 Economic output, energy use, and CO2 emissions are all stated in the above table as fluxes, i.e. amounts per time. This is explicit in the "per year" part of the units for economy and CO2 emissions, whereas for energy use it is implicit in the use of a unit of *power* rather than *energy*.
 Make sure you are conceptually very clear on the difference:
@@ -108,20 +108,75 @@ where the unit \[J\] is Joule, the SI unit for energy.
 
 To get a sense of how much power that is, consider the following walk up the SI prefixes:
 
-| power scale | electrical examples                           | chemical example                                           |
+| power scale | electrical examples                           | (bio-)chemical example                                     |
 |-------------|-----------------------------------------------|------------------------------------------------------------|
 | W           | small appliances, laptops                     | A human brain consumes energy at an average rate of ~ 25 W |
 | kW          | large household appliances, solar panels      | A kitchen gas stove consumes fuel at a rate of ~ 20 kW     |
 | MW          | wind turbines, solar farms                    | While re-fueling, energy enters a gasoline car at ~ 5 MW   |
-| GW          | large power plants                            | The Palisades wildfire of burned through forest at ~80 GW  |
-| TW          | world installed capacity of many technologies |  |
-
+| GW          | large power plants                            | The Palisades wildfire of burned through forest at ~ 80 GW |
+| TW          | world installed capacity of many technologies | Photosynthesis in the Amazon rainforest captures ~ 3 TW    |
 
 Energy, especially electricity, is often described in units that explicitly refer to a power times a time. These units are based on the raltionship that a Joule is a Watt-second:
 
 $1 [\mathrm{W}\cdot \mathrm{s}] = 1 [\mathrm{J}] $
 
-The most common unit of time is 
+This is most commonly done with 1 hr as the unit of time. Electricity is bought and sold in kilowatt-hours. Since an hour has 60*60 = 3600 seconds, a kilowat-hour is 3600 kilowatt-seconds, which is 3600 kilojoules aka 3.6 megajoules:
+
+$1 [\mathrm{kWh}\] = 3.6 [\mathrm{MJ}] $
+
+and likewise up the SI prefixes: 1 MWh = 3.6 GJ, 1 GWh = 3.6 TJ, and 1 TWh = 3.6 PJ.
+
+Electricity consumption rates are often stated in kWh/year. This may offend your scientific sensibility, since there's time in both the numerator and the denominator, but it's a unit that makes sense when doing accounting and trying to figure out how much of your annual income you spend on electricity. To convert, we use the fact that a year has 365.25 * 24 = 8766 hours. Thus, a kilowat of average power is the same as 8766 kilowatt hours per year, aka (with rounding) 8.8 megawatt-hours per year:
+
+$1 [\mathrm{kW}\] = 8.8 [\mathrm{MWh}/\mathrm{yr}] $
+
+and likewise up the SI prefixes: 1 MW = 8.7 GWh/yr, 1 GW = 8.8 TWh/yr, and 1 TW = 8.7 PWh/yr.
+
+Thermal and chemical energy consumption, on the other hand, are usually given in (a very large number of) joules per year. For example, Denmark's primary energy consumption [as reported by Energistyrelsen](https://ens.dk/en/analyses-and-statistics/key-figures) in 2023 was 696 PJ. To convert to power units, we use (you guessed it!) the fact that one year is about 31.5 million seconds. Thus, 1 kilowatt is about 31.5 gigajoules per year:
+
+$1 [\mathrm{kW}\] = 31.5 [\mathrm{GJ}/\mathrm{yr}] $
+
+and likewise up the SI prefixes: 1 MW = 31.5 TJ/yr, 1 GW = 31.5 PJ/yr, and 1 TW = 31500 PJ/yr (I've never seen anyone use exajoules in this context).
+
+The following table might come in handy:
+
+| **1 kW** =| 8.77 MWh/yr  =| 31.5 GJ/yr  |
+|-----------|---------------|-------------|
+| 114 W    =| **1 MWh/yr** =| 3.60 GJ/yr  |
+| 31.7 W   =| 278 kWh/yr   =| **1 GJ/yr** |
+
+CO2 emissions and energy of chemicals
+-------------------------------------
+All of the (bio-)chemical examples of energy fluxes in the table in the previous section are assigned energy due to reaction with oxygen. In other words, the energy content of a chemical is the magnitude of its *free energy of combustion*. By "free energy", we mean the standard Gibbs free energy of combustion, $\Delta_c G^\circ$. We use the Gibbs free energy because it is by definition the maximum amount of useful kinetic energy or electricity that could theoretically be extracted from the chemical via reaction with oxygen. And we use standard conditions because, regardless of the temperature and pressure at which the reaction occurs, fuels are generally purchased at ambient conditions, and if you're expelling products at high temperature or high pressure, you're wasting energy. Similarly, we'll assume liquid water, since if you're discarding uncondensed water vapor, you're wasting energy.
+
+The standard free energy of combustion for most chemicals can be looked up directly, but it's important to know how to calculate it from the most commonly tabulated thermochemical values, which are the *standard enthalpy of formation*, $\Delta_f H^\circ$ and the *standard entropy*, $S^\circ$. From these, we can calculate the standard entropy, enthalpy, and free energy of combustion as follows:
+
+$\Delta_c H^\circ = \sum_i \nu_i \Delta_f H^\circ_i $
+$\Delta_c S^\circ = \sum_i \nu_i S^\circ_i $
+$\Delta_c G^\circ = \Delta_c H^circ - T^\circ \cdot \Delta_c S^\circ $
+
+Here \nu_i is the stoichiometric coefficient of the product in the combustion reaction, and $T^\circ=298.15 \text{K}$ is the thermochemical standard temperature. All $G$, $H$, and $S$ here (and in this course) are molar values.
+
+For example, we calculate here the combustion of methane (CH4), which is the main component of natural gas, using the following tabulated values (from [NIST Chemistry webbook](https://webbook.nist.gov/cgi/cbook.cgi?ID=C74828&Units=SI&Mask=1#Thermo-Gas)): 
+
+molecule | $\Delta_f H^\circ$ / [kJ/mol] | $S^\circ$ / [J/K/mol] |
+|--------|-------------------------------|-----------------------|
+| CH4    | -74.6  | 186.3 |
+| O2     | 0      | 205.2 |
+| H2O(l) | -285.8 | 70.0  |
+| CO2    | -393.5 | 213.8 |
+
+The combustion reaction is CH4 + 2 O2 --> CO2 + 2 H2O, so we have
+$\nu_\text{CH4}=-1$, $\nu_\text{O2}=-2$, $\nu_\text{CO2}=1$, and $\nu_\text{H2O}=2$
+
+Plugging it in gives:
+
+$\Delta_c H^\circ = -818 \text{[kJ/mol]}$ 
+$\Delta_c S^\circ = -523 \text{[J/K/mol]}$ 
+$\Delta_c G^\circ = 
+
+
+
 
 
 Climate change
@@ -136,5 +191,6 @@ Global climate policy: A brief history of the UNFCCC
 
 Energy and the technologies that convert it
 ===========================================
+
 
 
