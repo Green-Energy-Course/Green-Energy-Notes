@@ -77,7 +77,7 @@ at an annual rate of about 2.2% in recent years.
 
 Since the industrial revolution, most of that energy comes from burning fossil fuels, 
 and the chemistry of the planet changes as a result: 
-**Global CO2 emissions** have grown with energy consumption. They are growing slower now, but are still growing, at an average annual rate of 0.8% per year over the past ten years.
+**Global CO2 emissions** have grown with energy consumption. They are growing slower now, but are still growing, at an average annual rate of 0.8% per year over the past ten years. 75% of CO2 emissions come from energy consumption.
 
 The following table summarizes these four descriptors of our changing world (check that the doubling times obey the rule-of-70)!:
 
@@ -145,17 +145,21 @@ The following table might come in handy:
 | 114 W    =| **1 MWh/yr** =| 3.60 GJ/yr  |
 | 31.7 W   =| 278 kWh/yr   =| **1 GJ/yr** |
 
+
 CO2 emissions and energy of chemicals
 -------------------------------------
-All of the (bio-)chemical examples of energy fluxes in the table in the previous section are assigned energy due to reaction with oxygen. In other words, the energy content of a chemical is the magnitude of its *free energy of combustion*. By "free energy", we mean the standard Gibbs free energy of combustion, $\Delta_c G^\circ$. We use the Gibbs free energy because it is by definition the maximum amount of useful kinetic energy or electricity that could theoretically be extracted from the chemical via reaction with oxygen. And we use standard conditions because, regardless of the temperature and pressure at which the reaction occurs, fuels are generally purchased at ambient conditions, and if you're expelling products at high temperature or high pressure, you're wasting energy. Similarly, we'll assume liquid water, since if you're discarding uncondensed water vapor, you're wasting energy.
+
+All of the (bio-)chemical examples of energy fluxes in the table in the previous section are assigned energy due to reaction with oxygen. In other words, the energy content of a chemical is the magnitude of its *free energy of combustion*. By "free energy", we mean the standard Gibbs free energy of combustion, $\Delta_c G^\circ$. We use the Gibbs free energy because it is by definition the maximum amount of useful kinetic energy or electricity that could theoretically be extracted from the chemical via reaction with oxygen. And we use standard conditions because, regardless of the temperature and pressure at which the reaction occurs, fuels are generally purchased at ambient conditions, and if you're expelling products at high temperature or high pressure, you're wasting energy. Similarly, we'll assume liquid water (in other words, deal with "higher heating values"), since if you're discarding uncondensed water vapor, you're wasting energy.
 
 The standard free energy of combustion for most chemicals can be looked up directly, but it's important to know how to calculate it from the most commonly tabulated thermochemical values, which are the *standard enthalpy of formation*, $\Delta_f H^\circ$ and the *standard entropy*, $S^\circ$. From these, we can calculate the standard entropy, enthalpy, and free energy of combustion as follows:
 
 $\Delta_c H^\circ = \sum_i \nu_i \Delta_f H^\circ_i $
+
 $\Delta_c S^\circ = \sum_i \nu_i S^\circ_i $
+
 $\Delta_c G^\circ = \Delta_c H^circ - T^\circ \cdot \Delta_c S^\circ $
 
-Here \nu_i is the stoichiometric coefficient of the product in the combustion reaction, and $T^\circ=298.15 \text{K}$ is the thermochemical standard temperature. All $G$, $H$, and $S$ here (and in this course) are molar values.
+Here $\nu_i$ is the stoichiometric coefficient of each species $i$ appearing in the reaction, and is negative for reactants and positive for products. $T^\circ=298.15 \text{K}$ is the thermochemical standard temperature. All $G$, $H$, and $S$ here (and in this course) are molar values.
 
 For example, we calculate here the combustion of methane (CH4), which is the main component of natural gas, using the following tabulated values (from [NIST Chemistry webbook](https://webbook.nist.gov/cgi/cbook.cgi?ID=C74828&Units=SI&Mask=1#Thermo-Gas)): 
 
@@ -172,13 +176,34 @@ $\nu_\text{CH4}=-1$, $\nu_\text{O2}=-2$, $\nu_\text{CO2}=1$, and $\nu_\text{H2O}
 Plugging it in gives:
 
 $\Delta_c H^\circ = -890 \text{[kJ/mol]}$ 
+
 $\Delta_c S^\circ = -523 \text{[J/K/mol]}$ 
-$\Delta_c G^\circ = -818 \text{[J/K/mol]}$ 
 
+$\Delta_c G^\circ = -818 \text{[kJ/mol]}$ 
 
+Burning one mol of methane thus consumes 818 kJ of *primary energy*, no matter how good you are at getting something useful out of it. If you could convert it to electricity with 100% efficiency, you'd get 818 kJ (which is 0.23 kWh) out of a mole of methane.
+
+Burning one mol of methane will also, by the stoichiometry of the combustion reaction, produce one mol of CO2. Without carbon capture, that is CO2 emissions. The ratio of emissions to energy is the *emissions intensity of energy*, EIE. The exact energy being considered needs to be specified! The EIE for the primary energy from a fuel takes a constant value given by:
+
+$EIE_{\text{primary, fuel}} = \frac{\nu_{\text{CO2}}}{\nu_{\text{fuel}}}\frac{M_{\text{CO2}}}{\Delta_c G^\circ_{\text{fuel}}}$
+
+For methane:
+
+$EIE_{\text{primary, CH4}} = \frac{1}{-1}\cdot\frac{44 \text{[g/mol]}}{-818 \text{[kJ/mol]}} = 0.054 \text{[g/kJ]} = 193 \text{[g/kWh]}$
+
+The emissions for generation of a kWh of electricity will necessarily be higher.
+
+We can compare this to the global average emissions intensity of energy, using the global data. 75% of CO2 emissions, or 30 Gt/yr, of the global 40 Gt/yr of CO2 emissions are associated with primary energy consumption. The global primary energy consumption rate, meanwhile, was 20 TW. 
+
+$EIE_{\text{primary, world}} =  \frac{30 \text{[Gt/yr]}}{20 \text{TW}} = 171 \text{[g/kWh]}$
+
+Apparently, methane is captures the average carbon intensity of the world's primary energy pretty well: There is a similar amount of energy consumed from more the more carbon-intensive coal and oil as from the major carbon-free sources of hydropower, nuclear, wind, and solar. 
+
+It follows from the fact that global primary energy consumption is growing at a faster annualized rate than global CO2 emissions that the carbon intensity of the world's primary energy consumption is decreasing. But is it decreasing fast enough?
 
 Climate change
 --------------
+
 
 
 Global climate policy: A brief history of the UNFCCC
@@ -187,8 +212,8 @@ Global climate policy: A brief history of the UNFCCC
 
 
 
-Energy and the technologies that convert it
-===========================================
+Energy conversion technologies
+==============================
 
 
 
