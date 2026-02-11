@@ -171,11 +171,9 @@ $\nu_\text{CH4}=-1$, $\nu_\text{O2}=-2$, $\nu_\text{CO2}=1$, and $\nu_\text{H2O}
 
 Plugging it in gives:
 
-$\Delta_c H^\circ = -818 \text{[kJ/mol]}$ 
+$\Delta_c H^\circ = -890 \text{[kJ/mol]}$ 
 $\Delta_c S^\circ = -523 \text{[J/K/mol]}$ 
-$\Delta_c G^\circ = 
-
-
+$\Delta_c G^\circ = -818 \text{[J/K/mol]}$ 
 
 
 
@@ -191,6 +189,7 @@ Global climate policy: A brief history of the UNFCCC
 
 Energy and the technologies that convert it
 ===========================================
+
 
 
 
