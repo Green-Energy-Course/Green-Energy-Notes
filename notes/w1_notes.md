@@ -214,9 +214,9 @@ The exponential function starts slow but picks up speed. In the 1960's, scientis
 
 This figure shows the average surface temperature of the earth as a function of atmospheric CO2 concentration. Each point represents both values averaged over a calendar year:
 
-![figure](../figures/T_vs_CO2_concentration.svg)
+![figure](https://github.com/Green-Energy-Course/Green-Energy-Notes/blob/main/figures/T_vs_CO2_concentration.svg)
 
-This figure is made with data from Our World In Data [by the script here](../figures/plot_world_temperature_vs_CO2.py).
+This figure is made with data from Our World In Data [by the script here](https://github.com/Green-Energy-Course/Green-Energy-Notes/blob/main/figures/plot_world_temperature_vs_CO2.py).
 
 
 Global climate policy: A brief history of the UNFCCC
@@ -227,6 +227,7 @@ Global climate policy: A brief history of the UNFCCC
 
 Energy conversion technologies
 ==============================
+
 
 
 
