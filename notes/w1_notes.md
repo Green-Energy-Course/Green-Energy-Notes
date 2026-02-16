@@ -197,13 +197,26 @@ We can compare this to the global average emissions intensity of energy, using t
 
 $EIE_{\text{primary, world}} =  \frac{30 \text{[Gt/yr]}}{20 \text{TW}} = 171 \text{[g/kWh]}$
 
-Apparently, methane is captures the average carbon intensity of the world's primary energy pretty well: There is a similar amount of energy consumed from more the more carbon-intensive coal and oil as from the major carbon-free sources of hydropower, nuclear, wind, and solar. 
+Apparently, methane captures the average carbon intensity of the world's primary energy pretty well: There is a similar amount of energy consumed from the more carbon-intensive coal and oil as from the major carbon-free sources of hydropower, nuclear, wind, and solar. 
 
 It follows from the fact that global primary energy consumption is growing at a faster annualized rate than global CO2 emissions that the carbon intensity of the world's primary energy consumption is decreasing. But is it decreasing fast enough?
 
 Climate change
 --------------
+The fact that CO2 emissions cause climate change is not new science:
 
+- In 1824, Joseph Fourier predicted the principle mechanism of the greenhouse effect: The atmosphere is relatively transparent to the visible light coming from the sun, but is relatively opaque to the infrared light leaving the earth. Fourier also correctly speculated that human activity could change the radiative balance of the earth. 
+- In 1856, Eunice Newton Foote made the first experimental observation of CO2 as a greenhouse gas: A test tube filled with "carbonic acid gas" heated up more than a test tube filled with air in sunlight. She correctly surmised that "if... the air had mixed with it a larger proportion than at present, an increased temperature from its action... must have necessarily resulted." Many other scientists in the years after came to similar conclusions. 
+- in 1859, John Tyndall made the first infrared spectra of pure gases were reported, identifying water vapor, CO2, and methane as greenhouse gases.
+- Svante Arrhenius made the first quantitative estimate of the greenhouse effect of CO2 resulting from the burning of coal, predicting that a double in atmospheric CO2 (i.e., form 280 in his time to a hypothetical 560 ppm - we are now more than half way) would increase the world's temperature by about 5-6 C. (He apparently overestimated somewhat.) He thought this would take hundreds of years... he forgot to account for the exponential increase in energy use.
+
+The exponential function starts slow but picks up speed. In the 1960's, scientists began to be confident that they were observing the actual increase in global average temperatures resulting from the greenhouse effect. Now there is no doubt.
+
+This figure shows the average surface temperature of the earth as a function of atmospheric CO2 concentration. Each point represents both values averaged over a calendar year:
+
+![figure](../../figures/T_vs_CO2_concentration.svg)
+
+This figure is made with data from Our World In Data [by the script here](../../figures/plot_world_temperature_vs_CO2.py).
 
 
 Global climate policy: A brief history of the UNFCCC
@@ -214,6 +227,7 @@ Global climate policy: A brief history of the UNFCCC
 
 Energy conversion technologies
 ==============================
+
 
 
 
