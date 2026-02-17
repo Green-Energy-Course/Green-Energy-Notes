@@ -225,16 +225,20 @@ When Arrhenius made his quantitative prediction of global warming, from his lab 
 
 The problem is that climate change manifests itself as disrupted weather patterns all over the world, leading to more heatwaves some places but also more snowstorms others; more droughts some places and more floods others. There have always been occasional floods, droughts, storms, and heatwaves, so it's impossible to say that a particular extreme weather event is due to climate change. What the continued improvement of climate science *has* enabled us to do is to answer, for any extreme weather event, the question "how much more likely did it become due to climate change?" This, called climate attribution, has major legal implications. And it makes it clear: many kinds of extreme weather events that have occured around the world were made much more likely by climate change. See, for example, [this map from Carbon Brief](https://interactive.carbonbrief.org/attribution-studies/index.html).
 
-These extreme weather phenomena can kill or displace people, and are predicted globally to displace more people the more the average temperature increases. Estimates vary of the number of people who will be forced to migrate due to climate change if we keep down the current path, but are typically in the 100's of millions of people by the year 2050. There is also a risk of crossing "tipping points" after which the climate or certain ecosystems would change dramatically even if we stopped emitting greenhouse gases.
+These extreme weather phenomena can kill or displace people, and are predicted globally to displace more people the more the average temperature increases. Estimates vary of the number of people who will be forced to migrate due to climate change if we keep down the current path, but are typically in the 100's of millions of people by the year 2050. There is also an enormous negative impact on biodiversity, plus the risk of crossing "tipping points" after which the climate or certain ecosystems would change dramatically even if we stopped emitting greenhouse gases.
 
 Global climate policy: A brief history of the UNFCCC
 ----------------------------------------------------
 Reading the last section, if you haven't heard it enough times to already be somewhat numb to it, should have you screaming "Someone should do something about that!"
 
+There's a collective action problem that makes it tough for people to motivate themselves to do something about it. If everyone in the world stopped emitting greenhouse gases today, it would certainly cost a lot, but the world's climate would stabilize and humanity would live in relative harmony with its planet. If, on the other hand, you alone cut yourself off from the energy system and the global economy and consume nothing but your sustainable fair share of biomass, water and air, then you will have presumably made your life less convenient and less comfortable, and if other people don't make the same sacrifice, your world will keep on heating up. Understandably very few people make this noble decision. The cost-benifit analysis is very different for humanity as a whole than it is for any human, or even any country, acting on its own. If Denmark bans fossil fuels tomorrow, but no other country does, Denmark will suffer the cost and get no benifit.
+
+
 
 
 Energy conversion technologies
 ==============================
+
 
 
 
