@@ -145,7 +145,6 @@ The following table might come in handy:
 | 114 W    =| **1 MWh/yr** =| 3.60 GJ/yr  |
 | 31.7 W   =| 278 kWh/yr   =| **1 GJ/yr** |
 
-
 CO2 emissions and energy of chemicals
 -------------------------------------
 
@@ -205,12 +204,12 @@ Climate change
 --------------
 The fact that CO2 emissions cause climate change is not new science:
 
-- In 1824, Joseph Fourier predicted the principle mechanism of the greenhouse effect: The atmosphere is relatively transparent to the visible light coming from the sun, but is relatively opaque to the infrared light leaving the earth. Fourier also correctly speculated that human activity could change the radiative balance of the earth. 
+- In 1824, Joseph Fourier predicted the principle mechanism of the greenhouse effect: The atmosphere is relatively transparent to the visible light coming from the sun, but is relatively opaque to the infrared light leaving the earth. This is directly analogous to the way glass windows keep a greenhouse warm. Fourier also correctly speculated that human activity could change the radiative balance of the earth. 
 - In 1856, Eunice Newton Foote made the first experimental observation of CO2 as a greenhouse gas: A test tube filled with "carbonic acid gas" heated up more than a test tube filled with air in sunlight. She correctly surmised that "if... the air had mixed with it a larger proportion than at present, an increased temperature from its action... must have necessarily resulted." Many other scientists in the years after came to similar conclusions. 
 - in 1859, John Tyndall made the first infrared spectra of pure gases were reported, identifying water vapor, CO2, and methane as greenhouse gases.
-- Svante Arrhenius made the first quantitative estimate of the greenhouse effect of CO2 resulting from the burning of coal, predicting that a double in atmospheric CO2 (i.e., form 280 in his time to a hypothetical 560 ppm - we are now more than half way) would increase the world's temperature by about 5-6 C. (He apparently overestimated somewhat.) He thought this would take hundreds of years... he forgot to account for the exponential increase in energy use.
+- Svante Arrhenius made the first quantitative estimate of the greenhouse effect of CO2 resulting from the burning of coal, predicting that a double in atmospheric CO2 (i.e., form 280 in his time to a hypothetical 560 ppm - we are now more than half way) would increase the world's temperature by about 5-6 C. (He apparently overestimated somewhat.) He thought it would take many centuries... but he forgot to account for the exponential function.
 
-The exponential function starts slow but picks up speed. In the 1960's, scientists began to be confident that they were observing the actual increase in global average temperatures resulting from the greenhouse effect. Now there is no doubt.
+The exponential function starts slow but picks up speed. In the 1960's, scientists began to be compile temperature records accurate enough to observe the actual increase in global average temperatures (at the time still quite small) resulting from the greenhouse effect. Now there is no doubt.
 
 This figure shows the average surface temperature of the earth as a function of atmospheric CO2 concentration. Each point represents both values averaged over a calendar year:
 
@@ -218,15 +217,25 @@ This figure shows the average surface temperature of the earth as a function of 
 
 This figure is made with data from Our World In Data [by the script here](https://github.com/Green-Energy-Course/Green-Energy-Notes/blob/main/figures/plot_world_temperature_vs_CO2.py).
 
+The slope is about 0.01 [K/ppm], meaning an 0.1 degrees celsius increase in the world's average temperature for every 10 ppm carbon dioxide. The causality is not quite one-to-one, since about 25% of global warming is caused by other greenhouse gases, primarily CH4. But for the sake of understanding the urgency of transforming our energy systems, 0.1 degrees per 10 ppm of CO2 captures it very well. Note that there's a lot of noise in the temperature due to other variations like El Niño, solar output, etc. But those variations are cyclical or stochastic, whereas the influence of greenhouse gases has been increasing year on year, driving the overall trend. The year 1850 is often used as a baseline, when accurate measurements in several representative parts of the world were available, but accumulated emissions were a tiny fraction of what they are today. The temperature increase since then is already (in 2025) about ~1.4$^\circ$C, and the CO2 concentration has increased ~150 ppm in the same time, so the relation holds quite well!
+
+At present, the CO2 concentration is increasing by about 3 ppm per year. This is due to the portion (calculated in the exercises!) of the global ~40 Gt/yr of CO2 emissions that, in recent years, remains in the atmosphere rather than being adsorbed by the oceans. So, at the present rate of warming, the world heats by an average of about 1/30 of a degree per year. It doesn't sound like much but it adds up year after year after year.
+
+When Arrhenius made his quantitative prediction of global warming, from his lab in Sweden, he viewed it as something very good. And if it were just a uniform warming around the world without side effects, living in Denmark, I would be tempted to agree - a few degrees warmer would be quite alright.
+
+The problem is that climate change manifests itself as disrupted weather patterns all over the world, leading to more heatwaves some places but also more snowstorms others; more droughts some places and more floods others. There have always been occasional floods, droughts, storms, and heatwaves, so it's impossible to say that a particular extreme weather event is due to climate change. What the continued improvement of climate science *has* enabled us to do is to answer, for any extreme weather event, the question "how much more likely did it become due to climate change?" This, called climate attribution, has major legal implications. And it makes it clear: many kinds of extreme weather events that have occured around the world were made much more likely by climate change. See, for example, [this map from Carbon Brief](https://interactive.carbonbrief.org/attribution-studies/index.html).
+
+These extreme weather phenomena can kill or displace people, and are predicted globally to displace more people the more the average temperature increases. Estimates vary of the number of people who will be forced to migrate due to climate change if we keep down the current path, but are typically in the 100's of millions of people by the year 2050. There is also a risk of crossing "tipping points" after which the climate or certain ecosystems would change dramatically even if we stopped emitting greenhouse gases.
 
 Global climate policy: A brief history of the UNFCCC
 ----------------------------------------------------
-
+Reading the last section, if you haven't heard it enough times to already be somewhat numb to it, should have you screaming "Someone should do something about that!"
 
 
 
 Energy conversion technologies
 ==============================
+
 
 
 
