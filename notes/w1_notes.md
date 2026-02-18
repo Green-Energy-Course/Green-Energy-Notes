@@ -156,7 +156,7 @@ $\Delta_c H^\circ = \sum_i \nu_i \Delta_f H^\circ_i $
 
 $\Delta_c S^\circ = \sum_i \nu_i S^\circ_i $
 
-$\Delta_c G^\circ = \Delta_c H^circ - T^\circ \cdot \Delta_c S^\circ $
+$\Delta_c G^\circ = \Delta_c H^\circ - T^\circ \cdot \Delta_c S^\circ $
 
 Here $\nu_i$ is the stoichiometric coefficient of each species $i$ appearing in the reaction, and is negative for reactants and positive for products. $T^\circ=298.15 \text{K}$ is the thermochemical standard temperature. All $G$, $H$, and $S$ here (and in this course) are molar values.
 
@@ -231,13 +231,26 @@ Global climate policy: A brief history of the UNFCCC
 ----------------------------------------------------
 Reading the last section, if you haven't heard it enough times to already be somewhat numb to it, should have you screaming "Someone should do something about that!"
 
-There's a collective action problem that makes it tough for people to motivate themselves to do something about it. If everyone in the world stopped emitting greenhouse gases today, it would certainly cost a lot, but the world's climate would stabilize and humanity would live in relative harmony with its planet. If, on the other hand, you alone cut yourself off from the energy system and the global economy and consume nothing but your sustainable fair share of biomass, water and air, then you will have presumably made your life less convenient and less comfortable, and if other people don't make the same sacrifice, your world will keep on heating up. Understandably very few people make this noble decision. The cost-benifit analysis is very different for humanity as a whole than it is for any human, or even any country, acting on its own. If Denmark bans fossil fuels tomorrow, but no other country does, Denmark will suffer the cost and get no benifit.
+There's a collective action problem that makes it tough for people to motivate themselves to do something about it. If everyone in the world stopped emitting greenhouse gases this year, it would certainly cost a lot, but the world's climate would stabilize and humanity would live in relative harmony with its planet. The benifits would arguably outweigh the costs, and a rational world can see that. If, on the other hand, you alone cut yourself off from the energy system and the global economy and consume nothing but your sustainable fair share of biomass, water and air, then you will have presumably made your life much less convenient and less comfortable, and if other people don't make the same sacrifice, climate change will continue worsening, threatening you as much as everyone else, or more because your change of lifestyle renders you more vulnerable to its effects. Understandably very few people make this noble decision. The cost-benifit analysis is very different for humanity as a whole than it is for any human, or even any country, acting on its own. On a geopolitical level, it's not just about comfort and convenience, it's about power: if peace breaks down, you want to be living in the country that has the fastest planes and the best guns, and in that moment which we hope never comes, you won't be worried about whether the fuel in their engines, or the blast furnaces that made the steel, or the buzzing big economy that makes mobilization possible also drive climate change. If Denmark, for example, bans fossil fuels tomorrow, but no other country does, Denmark will suffer the cost and the geopolitical risk but get no benifit.
 
+The collective action problem also has a light side. When you flip the assumption about others' behavior, and instead assume that the world *will* eliminate its fossil fuel emissions eventually no matter the cost, then the incentive becomes to act faster than anyone else. In a world where everyone is pushing through a green transition or getting ready to, first movers gain economic competitive advantage and diplomatic clout. Not least, they can make money off the renewable energy technologies they develop. So this leaves the countries of the world in a kind of stand-off. They are looking at each other, thinking, if you don't go, I won't go. But if you go, I want to go faster.
 
+A central goal of international climate diplomacy should therefore be to switch the calculation of a critical mass of the world's countries by building confidence in an assumption that the green transition will happen eventually, no matter the cost. This is the key to interpreting the results of the annual "COP" global climate conferences. If you're looking for concrete action, they can look quite empty - like a "Global North Greenwash Festival" to quote Gretha Thunberg - but in the context of the collective action problem, they may play a vital role in switching a critical mass of the world's emitters from a mentality of "you won't, so I won't" to a mentality of "you will, so I will too, and faster." 
+
+COP stands for "**C**onference **o**f the **P**arties of the United Nationas Framework Convention on Climate Change". That "convention", the UNFCCC, has its origins in the United Nations Conference on Environment and Development, nicknamed the "Earth Summit", in Rio de Janiero, Brazil, in 1992. It is in essense a treaty to stabilize greenhouse gases in the atmosphere, though it left the when and how to future conferences of the parties. There have been annual conferences of the parties every year since 1995, with one gap in 2020 due to the pandemic, usually in late autumn. The following COP's had notable outcomes:
+
+|COP | year | place | notable outcome |
+|----|--------|----------------|--------|
+| COP3  | 1997   | Kyoto, Japan   | The "Kyoto protocol" divided the world up into developed countries with binding targets and developing countries with no climate commitment |
+| COP15 | 2009   | Copenhagen, DK | Remembered for its failure to replace the Kyoto protocol with a binding treaty, but Copenhagen Accord establishes a **limit of 2.0 C warming** as a global goal |
+| COP21 | 2015   | Paris, France  | The Paris Agreement puts the 2.0 goal in a binding treaty, with a goal of 1.5, and establishes a registry of "Nationally Determined Contributions" (NDC's) which signatories must submit and update every five years. These are evaluated collectively against the 2.0 C goal. Initial NDC's implied 3.7 C of warming by 2100.|
+| COP26 | 2021   | Glasgow, UK    | Proliferation of "net-zero pledges": Countries covering 90% of emmissions set a date by which they should not emit more greenhouse gases than they remove |
+| COP30 | 2025   | Belém, Brazil  | "Open Coalition on Compliance Carbon Markets" established among willing partners including Brazil, China and the EU, committing to align their carbon markets which put an increasing price on CO2 emissions that rises as needed for fulfillment of the Paris agreement - and a shared tarrif on countries from outside the coalition.|
 
 
 Energy conversion technologies
 ==============================
+
 
 
 
