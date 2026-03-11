@@ -245,11 +245,28 @@ COP stands for "**C**onference **o**f the **P**arties of the United Nationas Fra
 | COP15 | 2009   | Copenhagen, DK | Remembered for its failure to replace the Kyoto protocol with a binding treaty, but Copenhagen Accord establishes a **limit of 2.0 C warming** as a global goal |
 | COP21 | 2015   | Paris, France  | The Paris Agreement puts the 2.0 goal in a binding treaty, with a goal of 1.5, and establishes a registry of "Nationally Determined Contributions" (NDC's) which signatories must submit and update every five years. These are evaluated collectively against the 2.0 C goal. Initial NDC's implied 3.7 C of warming by 2100.|
 | COP26 | 2021   | Glasgow, UK    | Proliferation of "net-zero pledges": Countries covering 90% of emmissions set a date by which they should not emit more greenhouse gases than they remove |
-| COP30 | 2025   | Belém, Brazil  | "Open Coalition on Compliance Carbon Markets" established among willing partners including Brazil, China and the EU, committing to align their carbon markets which put an increasing price on CO2 emissions that rises as needed for fulfillment of the Paris agreement - and a shared tarrif on countries from outside the coalition.|
+| COP30 | 2025   | Belém, Brazil  | "Open Coalition on Compliance Carbon Markets" established among willing partners including Brazil, China and the EU, committing to align their carbon markets, with a price on CO2 emissions that rises as needed for fulfillment of the Paris agreement - and a shared carbon tarrif on products from countries from outside the coalition.|
 
 
 Energy conversion technologies
 ==============================
+
+| Technology | E in | E out | Efficiency | capacity factor | global capacity* | global growth rate |
+|------------|------|-------|------------|-----------------|------------------|--------------------|
+| Nuclear power | Nuclear fuel | Electricity | 33% | 80-90% | 0.38 TW | 0% | 
+| Combustion engine cars | Fuel | Kinetic | 40% | ? | 320 TW | 0% |
+| Hydroelectricty | Gravitational | Electricity | ~95% | 30-50% | 1.4 TW | +2% |
+| Coal power | Solid fuel | Electricity | ~38% | 10-90% | 2.5 TW | +3% |
+| Combined heat and power (CHP) | Fuel | Electricity + Heat | 95% | 10-90% | 1.1 TW | +4% |
+| Combined cycle gas turbine (CCGT) | Gas fuel | Electricity | ~55% | 10-90% | ? | +5% |
+| Pumped hydro | Electricity | Electricity | ~80% | ? | 0.20 TW | +5% | 
+| Heat pump | Electricity | Heat | 250-400% | ? | 1 TW | +7% | 
+| Wind power | Wind | Electricity | 20-40% | 30-50% | 1.1 TW | +13% | 
+| Batteries | Electricity | Electricity | ~85% | ? | 0.092 TW | +23% | 
+| Photovoltaics | Light | Electricity | ~20% | 5-20% | 1.8 TW | +28% | 
+| Battery electric cars | Electricity | Kinetic | 90% | ? | 4 TW | +30% |
+| Electrolysis | Electricity | Hydrogen ($\Delta G$) | ~70% | ? | 0.002 TW | +40% | 
+
 
 
 
