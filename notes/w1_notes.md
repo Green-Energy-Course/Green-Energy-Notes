@@ -251,7 +251,7 @@ COP stands for "**C**onference **o**f the **P**arties of the United Nationas Fra
 | COP26 | 2021   | Glasgow, UK    | Proliferation of "net-zero pledges": Countries covering 90% of emmissions set a date by which they should not emit more greenhouse gases than they remove |
 | COP30 | 2025   | Belém, Brazil  | "Open Coalition on Compliance Carbon Markets" established among willing partners including Brazil, China and the EU, committing to align their carbon markets, with a price on CO2 emissions that rises as needed for fulfillment of the Paris agreement - and a shared carbon tarrif on products from countries from outside the coalition.
 
-Emissions are still increasing, and we can't predict the future. But what we can say for sure is: 
+Emissions are still increasing, even though they need to be falling by more than 7% a year now (dropping by half within 10 years) for the world to have a chance of Paris Agreement's more ambitious goal of stabilizing temperature with at most 1.5 C of warming. We don't know if a social tipping point is near. We can't predict the future. But what we can say for sure is: 
 
 If you want a future in which climate change is under control, you should start by assuming that we will get there somehow - and get ready for your part in the green transition.
 
@@ -261,19 +261,20 @@ The burning of fossil fuel for energy is by far the bigest single cause of globa
 
 This course has chemistry at its center - that is, conversions of one type of chemical energy to another. The processes that we'll cover in some depth fall into two categories:
 
-**Thermochemical**. This includes combustion reactions; industrial CO2 emissions of steel, aluminium, silicon and cement (half of week 3); grey hydrogen (part of week 4); conventional power-to-X (week 5); biogas production and carbon capture (week 6); and mineral extraction and recycling (week 7). For all of these, one type of chemical energy is converted into another, releasing or consuming some amount of heat in the process.
+**Thermochemical**. This includes combustion reactions; industrial production of steel, aluminium, silicon and cement (half of week 3); methane steam reforming (part of week 4); amonia, methanol, and synthetic jet fuel synthesis (week 5); biogas production and carbon capture (week 6); and mineral extraction and recycling (week 7). For all of these, one type of chemical energy is converted into another, releasing or consuming some amount of heat in the process.
 
-**Electrochemical**. We'll also cover the direct interconversion of electrical energy and chemical energy. This includes batteries (part of week 3); water electrolysis (week 4); and emerging power-to-X (part of week 5).
+**Electrochemical**. We'll also cover the direct interconversion of electrical energy and chemical energy. This includes batteries (part of week 3); water electrolysis (week 4); and emerging power-to-X technologies (part of week 5).
 
-Two technologies that are interesting from a chemical standpoint, even though they ultimately convert between types of energy other than chemical energy, are photovoltaics and heat pumps. Photovoltaics and heat pumps are described in intermediate depth below.
+Today's chemical industry is primarily thermochemical, whereas the post-transition hemical industry is expected to be increasingly electrochemical. Most of the thermochemical processes will still play a role, not necessarily the same role as today, and often with some changes. The same can be said of the electrical grid, which we will look at in week 3. The economic principles of week 2 apply for all kinds of technologies. 
 
-We won't go into depth about other technologies, fascinating though they might be. Instead, we summarize them breifly here in the context of the global energy system and the changes that it is going through. Furthermore, the economic principles of week 2 apply for all kinds of technologies, and week 3 will include a brief look at the electrical grid, as an essential infrastructure for transporting energy between all the different technologies, wherever they may be.
+Two additional technologies that are interesting from a chemical standpoint, even though they ultimately convert between types of energy other than chemical energy, are photovoltaics and heat pumps. Photovoltaics and heat pumps are described in intermediate depth below.
 
+We won't go into depth about other technologies, fascinating though they might be. Instead, we summarize them breifly here in the context of the global energy system and the changes that it is going through. 
 
 Types of energy and their conversions
 -------------------------------------
 
-
+![figure](https://github.com/Green-Energy-Course/Green-Energy-Notes/blob/main/figures/energy_conversions.svg)
 
 Overview of technologies
 ------------------------
@@ -300,4 +301,5 @@ Photovoltaics: A closer look
 
 Heat pumps: A closer look
 -------------------------
+
 
