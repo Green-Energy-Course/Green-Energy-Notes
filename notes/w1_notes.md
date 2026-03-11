@@ -251,6 +251,16 @@ COP stands for "**C**onference **o**f the **P**arties of the United Nationas Fra
 Energy conversion technologies
 ==============================
 
+
+
+Types of energy and their conversions
+-------------------------------------
+
+
+
+Overview of technologies
+------------------------
+
 | Technology | E in | E out | Efficiency | capacity factor | global capacity* | global growth rate |
 |------------|------|-------|------------|-----------------|------------------|--------------------|
 | Nuclear power | Nuclear fuel | Electricity | 33% | 80-90% | 0.38 TW | 0% | 
@@ -268,12 +278,8 @@ Energy conversion technologies
 | Electrolysis | Electricity | Hydrogen ($\Delta G$) | ~70% | ? | 0.002 TW | +40% | 
 
 
+Photovoltaics: A closer look
+----------------------------
 
-
-
-
-
-
-
-
-
+Heat pumps: A closer look
+-------------------------
