@@ -276,6 +276,8 @@ Types of energy and their conversions
 
 ![figure](https://github.com/Green-Energy-Course/Green-Energy-Notes/blob/main/figures/energy_conversions.svg)
 
+**Notes not finished. Slides linked to from weekly plan and on absalon.**
+
 Overview of technologies
 ------------------------
 
@@ -298,8 +300,10 @@ Overview of technologies
 
 Photovoltaics: A closer look
 ----------------------------
+**Notes not finished. Slides linked to from weekly plan and on absalon.**
 
 Heat pumps: A closer look
 -------------------------
+**Notes not finished. Slides linked to from weekly plan and on absalon.**
 
 
